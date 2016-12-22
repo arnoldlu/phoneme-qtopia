@@ -36,7 +36,7 @@ build_only_cldc:
 build_midp: build_cldc build_only_midp
 
 build_only_midp:
-	$(MAKE) -C $(COMPONENTS_DIR)/midp/build/linux_qtopia_gcc \
+	$(MAKE) -C $(COMPONENTS_DIR)/midp/build/linux_fb_gcc \
 	$(GLOBAL_CONFIG) \
 	$(MIDP_PATHS) $(MIDP_FEATURES_CONFIG) $(MIDP_EXTRA_CONFIG) $(MIDP_DEBUG_CONFIG) $(MIDP_COMPILER_CONFIG)
 
