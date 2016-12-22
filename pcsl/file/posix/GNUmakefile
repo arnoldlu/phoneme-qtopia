@@ -66,7 +66,7 @@ $(OUTPUT_OBJ_DIR)/pcsl_posix.o: pcsl_posix.c
 
 $(OUTPUT_OBJ_DIR)/pcsl_dir_posix.o: pcsl_dir_posix.c
 	@echo "compiling pcsl_dir_posix.o "
-	@$(CC) -I.. -I../util -I$(OUTPUT_INC_DIR) \
+	@$(CC) -I.. -I../util -I$(OUTPUT_INC_DIR) -I/usr/include \
 	$(CFLAGS) $(CC_OUTPUT)$@ `$(call fixcygpath, $<)`
 
 $(OUTPUT_OBJ_DIR)/pcsl_util_filelist.o: $(UTIL_DIR)/pcsl_util_filelist.c
