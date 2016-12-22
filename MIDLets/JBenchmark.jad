@@ -1,0 +1,13 @@
+MIDlet-1: JBenchmark,/images/JBenchmark.png,JBenchmark.JBenchmark
+MIDlet-Description: Graphical Benchmark for Mobile Java Devices
+MIDlet-Info-URL: http://wap.jbenchmark.com
+MIDlet-Jar-Size: 26236
+MIDlet-Jar-URL: JBenchmark.jar
+MIDlet-Name: JBenchmark
+MIDlet-Vendor: Kishonti LP
+MIDlet-Version: 1.1.1
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-1.0
+MIDlet-Install-Notify: http://www.jbenchmark.com/jbpin.jsp?l=26236&v=1.1.1&b=v1
+JB-WAP: null
+JB-UA: Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.10 (like Gecko) (Debian)
