@@ -41,7 +41,10 @@ JSROP_ABSTRACTS_LINKLIBS =
 JSROP_ABSTRACTS_INCLUDES = \
     -I$(JSROP_ABSTRACTS_DIR)/src/share/include \
     -I$(JSROP_ABSTRACTS_DIR)/src/cldc_application/native/include \
-    -I$(JSROP_ABSTRACTS_DIR)/src/cldc_application/native/$(TARGET_PLATFORM)
+    -I$(JSROP_ABSTRACTS_DIR)/src/cldc_application/native/$(TARGET_PLATFORM) \
+    -I$(JSROP_ABSTRACTS_DIR)/../javacall/implementation/share/utils/inc \
+    -I$(JSROP_ABSTRACTS_DIR)/../javacall/implementation/linux_emul \
+    -I$(JSROP_ABSTRACTS_DIR)/../javacall/interface
 
 # start dirs for java source trees
 JSROP_ABSTRACTS_JAVASRCDIRS = \
